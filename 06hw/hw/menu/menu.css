@@ -23,13 +23,15 @@ button{
     height: 74px; 
     border-radius: 12px;
     background-color: #EFEFEF; 
+    padding-top: 16px;
 }
 .position-title{
     color: #C4C4C4; 
 }
 .menu-position{
-    border: 1px solid black;
     display: inline-block;
+    text-align: center;
+    margin-right: 5px;
 }
 .menu-position:hover .position-img{
     background-color: #EAE2B7; 
