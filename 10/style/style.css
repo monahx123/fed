@@ -33,12 +33,19 @@ line-height: 40px; /* 200% */
 }
 .container{
     text-align: center;
+<<<<<<< HEAD
     display: inline-block;
+=======
+>>>>>>> de92cbbb19e46fd27fc6affa26bbd58d54455e01
 }
 .clearfix{
     content: "";
     clear: both;
+<<<<<<< HEAD
     display: inline-block;
+=======
+    display: block;
+>>>>>>> de92cbbb19e46fd27fc6affa26bbd58d54455e01
 }
 .vuejs{
   padding: 58px 0 122px;
@@ -58,7 +65,11 @@ content: "";
 clear: both;
 display: table;
 }
+<<<<<<< HEAD
 img{
+=======
+.first-portreit{
+>>>>>>> de92cbbb19e46fd27fc6affa26bbd58d54455e01
   overflow: hidden;
   max-width: 114px;
   max-height: 114px;
