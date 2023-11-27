@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style/reset.css">
+    <!-- <link rel="stylesheet" href="style/reset.css"> -->
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,18 +15,88 @@
     </head>
 <body>
     <header>
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
+        <div class="container">
+            <div class="logo">
+                <img src="img/lolgo.png" alt="">
+            </div>
+            <nav>
+                <a class="active" href="#">Home</a>
+                <a href="#">Amenities</a>
+                <a href="#">Contact Us</a>
+            </nav>
+            <form class="search-block">
+                <input type="search" 
+                placeholder="Search" 
+                name="serach" 
+                id="searchInput">
+                <button>
+                    <img src="img/search copy.png" alt="">
+                </button>
+            </form>
         </div>
     </header>
-    <section>
-        <div class="items"></div>
+    <div class="content">
+        <div class="container">
+        <div class="image-block">
+            <img src="img/Rectangle168 copy.png" alt="">
+        </div>
+        <div class="text-container">
+            <div class="text-block">
+                <h2>
+                    Work Space
+                </h2>
+                <h1>
+                    Modern Design work space
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, odit possimus voluptate ex inventore iste porro, minus maxime minima dolorum dolor animi. Ad iste doloremque consequuntur non tempora unde quia.
+                </p>
+            </div>
+            <div class="social">
+                <div class="video">
+                    <button>
+                        <img src="img/play-icon.png" alt="">
+                    </button>
+                    <span>
+                        Watch Video
+                    </span>
+                </div>
+                <div class="social-link">
+                    <a href="#">
+                        <img class="social-link-image" src="img/twitter.png" alt="">
+                        <img class="social-link-img-hover" src="img/twiter-hover.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="social-link-image" src="img/instagram.png" alt="">
+                        <img class="social-link-img-hover" src="img/instagram-hover.png" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="social-link-image" src="img/facebook.png" alt="">
+                        <img class="social-link-img-hover" src="img/facebook-hover.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <section class="client">
+        <div class="client-image">
+            <img src="img/Ellipse75.png" alt="">
+        </div>
+        <div class="client-image">
+            <img src="img/Ellipse75.png" alt="">
+        </div>
+        <div class="client-image">
+            <img src="img/Ellipse75.png" alt="">
+        </div>
+        <span class="client-info">
+            <strong>
+                235+
+            </strong>
+            <span>
+                Client
+            </span>
+        </span>
     </section>
 </body>
 </html>
