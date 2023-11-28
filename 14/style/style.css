@@ -1,0 +1,13 @@
+.{
+    box-sizing: border-box;
+}
+body{
+    color: #FFF;
+    font-family: Inter;
+    font-style: normal;
+    background-image: url(../img/Rectangle\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+/* header */
