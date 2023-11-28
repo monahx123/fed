@@ -197,9 +197,9 @@ background-color: #F2994A;
 .social-link a:hover{
     background-color: #F2994A;
 }
-.social-link a:hover .social-link-img-hover{
-    display: block;
-}
+/* .social-link a:hover .social-link-img-hover{
+    display: block; */
+
 .social-link a:hover .social-link-img{
     display: none;
 }
