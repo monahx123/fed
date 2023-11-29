@@ -2,12 +2,53 @@
     box-sizing: border-box;
 }
 body{
-    color: #FFF;
-    font-family: Inter;
-    font-style: normal;
     background-image: url(../img/Rectangle\ 1.png);
-    background-size: 100%;
     background-repeat: no-repeat;
-    height: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Inter';
+    line-height: normal;
+    position: relative;
+    width: 1728px;
+    height: 1117px;
 }
-/* header */
+header{
+    padding: 70px 33px 116px 80px;
+}
+.netfliks{
+    display: flex;
+    align-items: center;
+    padding-bottom: 116px;
+    justify-content: space-between;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 25%;
+}
+.friday{
+    color: #C8C8C8;
+    font-family: 'Castoro Titling';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 25%; 
+    margin: 0 auto;
+    padding: 0 33px;
+}
+button{
+    padding: 36px 15px;
+    background: none;
+    margin: 0 auto;
+    border: none;
+    position: relative;
+}
+.logo{
+    border-radius: 74px;
+}
