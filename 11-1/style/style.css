@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    background-color: #c2c2c2;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+main{
+    width: 1243px;
+    margin: 0 auto;
+    padding: 142px 0 128px;
+}
+h1>strong{
+    color: #2D3640;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+h1{
+    color: #2D3640;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    letter-spacing: -0.5px;
+}
+.sub-title{
+    width: 695px;
+    color: #2B292D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    margin-bottom: 50px;
+}
+.user-card{
+    padding: 58px 0 122px;
+    width: 295px;
+    background-color: #FFF;
+    text-align: center;
+}
+.user-photo{
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.user-photo{
+    width: 114px;
+    height: 114px;
+}
+.user-card h4{
+    color: #2D3640;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.625px;
+    margin: 34px 0 4px;
+}
+.user-card p{
+    color: #4B4F52;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
