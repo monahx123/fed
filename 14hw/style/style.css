@@ -2,9 +2,6 @@
     box-sizing: border-box;
   }
   header{
-    background-image: url(../img/Rectangle\ 1.png);
-    background-size: cover;
-    background-position: center;
     padding: 70px 33px 49px 80px;
   }
   body{
@@ -12,6 +9,9 @@
     font-family: 'Inter' sans-serif;
     font-style: normal;
     position: relative;
+    background-image: url(../img/Rectangle\ 1.png);
+    background-size: cover;
+    background-position: center;
   }
   .conteiner{
     display: flex;
@@ -37,7 +37,7 @@
     display: inline-block;
     border-left: 1px solid #FFF;
     height: 28px;
-    margin-left: -20px;
+    margin-left: 16px;
     margin-right: 20px;
     margin-bottom: 12px;
   }
