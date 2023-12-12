@@ -159,9 +159,8 @@
     height: 32.3px;
   }
   .right .hover{
-    background: none;
-    border: none
-    color: white
+    color: white;
+    font-size: 30px;
   }
   .video{
     display: flex;
@@ -198,4 +197,3 @@
     line-height: 141.523%; /* 33.965px */
     background: none;
   }
-  @media
