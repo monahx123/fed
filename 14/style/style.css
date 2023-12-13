@@ -43,12 +43,45 @@ header{
     padding: 0 33px;
 }
 button{
-    padding: 36px 15px;
+   position: relative;
+    width: 43px;
+    height: 43px;
     background: none;
-    margin: 0 auto;
     border: none;
-    position: relative;
 }
-.logo{
-    border-radius: 74px;
+button .vector{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    top: 4px;
+    left: 4px;
+}
+.user{
+    width: 74px;
+    height: 74px;
+}
+.user .elipse{
+    position: fixed;
+    width: 74px;
+    height: 74px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.label {
+  width: 564px;
+  height: 112px;
+}
+
+.label .drama-thriller {
+  position: fixed;
+  width: 564px;
+  top: 0;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
 }
