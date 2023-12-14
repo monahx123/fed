@@ -10,7 +10,7 @@ body{
 }
 .container{
     width: 100%;
-    min-height: auto;
+    max-height: 39px;
     padding: 46px 36px 179px 26px;
 }
 nav{
@@ -35,8 +35,7 @@ nav ul li a{
     text-decoration: none;
 }
 .btn{
-    display: flex;
-    align-items: center;
+    text-align: center;
     width: 163px;
     height: 46px;
     border: 0;
@@ -45,48 +44,61 @@ nav ul li a{
     color: white;
     cursor: pointer;
 }
-
-=======
-}
-body{
-    width: 1512px;
-    height: 2930px;
-    background: #FFF;
-    font-style: normal;
-    position: relative;
-}
-.header{
-    height: 751px;
-}
-.container{
-    padding: 46px 26px;
-    color: #000;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px; 
-    margin: 0 auto;
+span{
     display: flex;
-    justify-content: space-between;
-    background-color: #FFF;
-    color: #fff;
-    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
 }
-.navigation{
+.main{
+    width: 100%;
+    margin-top: 39px;
+    padding-left: 26px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-nav ul {
-    list-style: none;
-    padding: 46px;
+.head{
+    color: #000;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px; /* 100% */
 }
-nav ul li {
-    display: inline;
-    margin-right: 46px;
+.product{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
 }
-nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+.action{
+    text-align: center;
+    width: 195px;
+    height: 50px;
+    border-radius: 15px;
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+.top{
+    display: contents;
+}
+.vector{
+    margin: 20px;
+    padding: 10px;
+}
+.product{
+    padding-bottom: 82px;
+}
+.women{
+    width: 724px;
+    height: 454px;
+    background-image: url(../img/Rectangle\ 9.png);
+    background-repeat: no-repeat; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+}
+.h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
 }
