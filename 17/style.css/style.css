@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-<<<<<<< HEAD
     margin: 0;
     padding: 0;
 }
@@ -91,15 +90,3 @@ nav a {
     color: black;
     font-weight: bold;
 }
-.shoppy{
-    width: 163px;
-    height: 46px;
-    background: #000;
-    color: #FFF;
-}
-.search-block{
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
->>>>>>> 17fd463476d75271d87f58f6793b48cb3ab187f6
