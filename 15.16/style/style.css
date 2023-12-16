@@ -2,7 +2,10 @@
     box-sizing: border-box;
   }
   header{
+<<<<<<< HEAD
+=======
     background-position: center;
+>>>>>>> 17fd463476d75271d87f58f6793b48cb3ab187f6
     padding: 70px 33px 49px 80px;
   }
   body{
@@ -12,6 +15,10 @@
     position: relative;
     background-image: url(../img/Rectangle\ 1.png);
     background-size: cover;
+<<<<<<< HEAD
+    background-position: center;
+=======
+>>>>>>> 17fd463476d75271d87f58f6793b48cb3ab187f6
     width: 100%;
     height: 100%;
   }
@@ -158,9 +165,16 @@
     width: 32.3px;
     height: 32.3px;
   }
+<<<<<<< HEAD
+  .right{
+    background: none;
+    border: none
+    color: white
+=======
   .right .hover{
     color: white;
     font-size: 30px;
+>>>>>>> 17fd463476d75271d87f58f6793b48cb3ab187f6
   }
   .video{
     display: flex;
@@ -190,10 +204,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
+    margin: 0 auto; 
+=======
     margin: 0 auto;
+>>>>>>> 17fd463476d75271d87f58f6793b48cb3ab187f6
     color: #FFF;
     font-size: 24px;
     font-weight: 500;
     line-height: 141.523%; /* 33.965px */
     background: none;
   }
+<<<<<<< HEAD
+  @media (min-width:1080px){
+    body{
+      overflow: hidden;
+      float: none;
+    }
+}
+=======
+>>>>>>> 17fd463476d75271d87f58f6793b48cb3ab187f6
