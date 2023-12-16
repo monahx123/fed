@@ -1,56 +1,337 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body{
+    font-style: normal;
     width: 1512px;
     height: 2930px;
-    background: #FFF;
-    font-style: normal;
-    position: relative;
-}
-.header{
-    height: 751px;
 }
 .container{
-    padding: 46px 26px;
-    color: #000;
-    text-align: center;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28px; 
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    background-color: #FFF;
-    color: #fff;
-    text-align: center;
+    width: 100%;
+    max-height: 39px;
+    padding: 46px 36px 179px 26px;
 }
-.navigation{
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px;
+}
+nav ul{
+    list-style: none;
+    width: 80%;
+    text-align: left;
+    padding-right: 46px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0px 46px 0px 0px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.btn{
+    text-align: center;
+    width: 163px;
+    height: 46px;
+    border: 0;
+    outline: 0;
+    background: #000;
+    color: white;
+    cursor: pointer;
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main{
+    width: 100%;
+    margin-top: 39px;
+    padding-left: 26px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-nav ul {
-    list-style: none;
-    padding: 46px;
+.head{
+    color: #000;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px; /* 100% */
 }
-nav ul li {
-    display: inline;
-    margin-right: 46px;
+.product{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+    display: flex;
 }
-nav a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+.action{
+    text-align: center;
+    width: 195px;
+    height: 50px;
+    border-radius: 15px;
+    background: #000;
+    color: white;
+    cursor: pointer;
 }
-.shoppy{
-    width: 163px;
-    height: 46px;
+.top{
+    display: contents;
+}
+.vector{
+    margin: 20px;
+    padding: 10px;
+}
+.product{
+    padding-bottom: 82px;
+}
+.women{
+    width: 724px;
+    height: 454px;
+    background-image: url(../img/Rectangle\ 9.png);
+    background-repeat: no-repeat; 
+    display: flex;
+    align-items: flex-start;
+}
+.h2{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+}
+.woman-white{
+    order: 3;
+    align-self: flex-end;
+    margin-left: auto;
+}
+.men{
+    width: 724px;
+    height: 454px;
+    background-image: url(../img/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 16px;
+}
+.men-white{
+    order: 2;
+    align-self: flex-end;
+    margin-left: -75px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 155.556% */
+}
+.rls{
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px; /* 133.333% */
+}
+.new-release{
+    display: flex;
+    justify-content: center;
+}
+.image{
+    width: 1464px;
+    height: 381px;
+    margin-right: 20px;
+}
+.image img{
+    display: block;
+    max-width: 100%;
+}
+.image h3{
+    margin: 0;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 18px;
+}
+.image p{
+    margin: 6px 0;
+    font-size: 18px;
+}
+.kds{
+    color: #000;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px; /* 133.333% */
+}
+.top-kids{
+    display: flex;
+    justify-content: center;
+}
+.end{
+    display: flex;
+    justify-content: center;
+}
+.meiling-list{
+    text-align: center;
+    margin-top: 160px;
+  }
+  
+  .miss{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .receive{
+    color: #000;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 22px;
+  }
+  
+  .join-mailing{
+    width: 195px;
+    height: 50px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    background: no-repeat;
+    border: 2px solid #000;
+    margin-bottom: 161px;
+  }
+  footer{
     background: #000;
     color: #FFF;
-}
-.search-block{
+    margin-top: 160px;
+    padding: 63px 116px 20px 24px;
+  }
+  
+  .account{
     display: flex;
+    justify-content: space-between;
+  }
+  
+  .my-account{
+    display: flex;
+    margin: 50px 84px 6px 24px;
+    flex-direction: column;
+  }
+  
+  .my-account-title{
+    color: #C4C4C4;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  
+  li{
+    margin-bottom: 6px;
+    font-family: Poppins;
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  
+  .fa-brands{
+    width: 25px;
+    height: 25px;
+    color: #FFF;
+  }
+  
+  .account-last{
+    position: relative;
+    padding-top: 36px;
+  }
+  
+  .my-account-last{
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: Poppins;
+  }
+@media (min-width:992px){
+
+}
+
+
+
+
+.fa-bars{
+    display: none;
+  }
+}
+
+@media (max-width:992px){
+  .menu-text{
+    display: none;
+  }
+  .search-menu{
+    margin-left: 21px;
+  }
+  .shop-now{
+    display: inline;
+  }
+  .boot-img{
     align-items: center;
-    justify-content: flex-end;
+  }
+  .boot-right{
+    overflow: hidden;
+  }
+  .boot-left{
+    overflow: hidden;
+  }
+  .section-text{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+  .women-men{
+    display: block;
+  }
+  .women{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .men{
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .meiling-list{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
+  footer{
+    width: 100%;
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .account{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .my-account{
+    margin: 0 6px;
+  }
 }
