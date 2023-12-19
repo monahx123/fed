@@ -274,7 +274,6 @@ span{
 @media screen (max-width:992px) {
     footer{
         width: 100%;
-        width: 100%;
         display: inline-flex;
         flex-wrap: wrap;
         flex-direction: column;
