@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 8rem 12.5rem 7.5rem;
+}
+.travel{
+    color: #BC436A;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.logo{
+    margin-right: 37.56rem;
+}
+li{
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+}
+.menu ul{
+    margin-right: 2.5rem;
+}
+.home{
+    color: #BC436A;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+ul li{
+    color: #767;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.book{
+    display: inline-flex;
+    align-items: center; 
+    border-radius: 0.25rem;
+    background: #386E41;
+}
+.container{
+
+}
