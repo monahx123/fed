@@ -58,25 +58,45 @@
                     We offer the best and relaxing atmosphere and have one of the best deal to sweeten your vacation and make it a trip to remember. We have luxurious destinations around the world.
                 </p>
             </div>
-            <div class="take">
-            <p>
-                Where will we take you
-            </p>
-            <i class="fa-solid fa-chevron-right"></i>
-            </div>
-            <div class="bar">
-                <input type="text" name="Country" id="" placeholder="Country "><i class="fa-solid fa-chevron-down"></i>
-                <input type="text" name="City" id="" placeholder="City"><i class="fa-solid fa-chevron-down"></i>
-                <input type="text" name="Place" id="" placeholder="Place"><i class="fa-solid fa-chevron-down"></i>
-                <button class="search">Search place</button>
+        <div class="select_block">
+            <section class="text-icons">
+                <div class="text_i">
+                    <h2>Where will we take you</h2>
+                </div>
+                <div class="icon">
+                    <script src="https://kit.fontawesome.com/33a016d92f.js" crossorigin="anonymous"></script>
+                    <i class="fa-solid fa-chevron-right"></i>
+                </div>
+            </section>    
+            <div class="select">
+                <select>
+                    <option value="0">Country</option>
+                    <option value="1">Ukraine</option>
+                    <option value="2">Ukraine</option>
+                    <option value="3">Ukraine</option>
+                  </select>
+                  <select>
+                    <option value="0">City</option>
+                    <option value="1">Mykolaiv</option>
+                    <option value="2">Mykolaiv</option>
+                    <option value="3">Mykolaiv</option>
+                  </select>
+                  <select>
+                    <option value="0">Place</option>
+                    <option value="1">Town</option>
+                    <option value="2">Sea</option>
+                    <option value="3">Village</option>
+                  </select>
+                  <button class="search_place"><h2>Search Place</h2></button>
             </div>
         </div>
+    </div>
     </section>
     <footer class="footer">
-        <p class="see">
-            See Destinations
-        </p><br>
-        <font-awesome-icon :icon="['far', 'chevron-down']" />
+        <h3>See Destinations</h3><br>
+        <div class="icona">
+            <i class="fa-solid fa-angles-down"></i>
+        </div>
     </footer>
 </body>
 </html>
