@@ -55,6 +55,13 @@ ul li{
     border-radius: 0.25rem;
     background: #386E41;
     padding: 0.25rem;
+    width: 6.375rem;
+    height: 2.375rem;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .text{
     padding-top: 12.5rem;
